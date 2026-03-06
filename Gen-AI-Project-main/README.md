@@ -73,7 +73,7 @@ Open:
 
 ## 6) Production hardening checklist
 
-- Replace `APP_SECRET_KEY` with a secure random value.
+- Replace "APP_SECRET_KEY" with a secure random value.
 - Use HTTPS and secure cookie settings in deployment.
 - Restrict network access to Azure SQL by IP/VNet.
 - Add DB migrations (Alembic) and CI/CD pipeline.
